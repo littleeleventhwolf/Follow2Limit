@@ -227,7 +227,7 @@ public class FollowAnalyzer {
             FileInputFormat.addInputPath(job2, tempDir);
             FileOutputFormat.setOutputPath(job2, new Path(args[2]));
 
-            //FileSystem.get(conf).deleteOnExit(tempDir);//退出时删除临时路径
+            FileSystem.get(conf).deleteOnExit(tempDir);//退出时删除临时路径
 
             System.exit(job2.waitForCompletion(true) ? 0 : 1);
         }
