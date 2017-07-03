@@ -2,7 +2,7 @@
 基于MapReduce的二度人脉
 
 # 执行参数
-![参数](img/parameter/png)
+![参数](img/parameter.png)
 
 # 详细说明
 社交网站上的各个用户以及用户之间的相互关注可以抽象为一个图。以下图为例：<br />
